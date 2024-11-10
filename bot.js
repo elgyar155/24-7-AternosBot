@@ -101,9 +101,9 @@ if(!fs.existsSync("config.yaml")) {
                 const bot = mineflayer.createBot({
                     username: _u,
                     password: _p,
-                    host: host,
-                    port: port,
-                    version: version
+                    host: host,elgyar2705-2Jx0.aternos.me
+                    port: port,52692
+                    version: version 1.21.1
                 });
                 bot.on('spawn', () => resolve(bot));
                 bot.on('error', (err) => reject(err));
